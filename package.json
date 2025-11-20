@@ -1,0 +1,21 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "Simple URL shortener with custom API rate limiter",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2",
+    "mongoose": "^8.20.0"
+  },
+  "keywords": [
+    "url-shortener",
+    "rate-limiter"
+  ],
+  "author": "",
+  "license": "MIT"
+}
